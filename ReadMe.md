@@ -1,4 +1,4 @@
-# Return Ready Lab 19
+# U7S1 One-dimensional Arrays
 
 * Part A - Foundations 8.1
 * Part B - Foundations Practice
