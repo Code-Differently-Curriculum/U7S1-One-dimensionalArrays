@@ -12,6 +12,9 @@ In the package `partA.ex01` look at the file `Array`
 
 #### Step 02
 
+* Review code. What do you think the output will be? Run the code to verify your thoughts.
+
+#### Step 03
 * Modify the program to implement …
   * Declare a one-dimensional array named score of type int that
   can hold 9 values
