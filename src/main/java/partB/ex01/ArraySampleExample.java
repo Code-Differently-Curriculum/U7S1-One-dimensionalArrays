@@ -1,19 +1,28 @@
 package partB.ex01;
 
 public class ArraySampleExample {
-    public static void main(String[] args) {
+    public static String arraySample() {
+        String response = "";
 
         int primes[] = {2,3,5,7,11,13,17};
-        System.out.println ("Array length: " + primes.length);
+        response +=  ("Array length: " + primes.length);
 
-        System.out.println ("The first few prime numbers are:");
+        response +=  ("The first few prime numbers are:");
 
 
         for (int i : primes) {
 
-            System.out.println(i);
+            response += (i);
 
         }
+
+        return response;
+    }
+
+    public static void main(String[] args) {
+        String outputExample = arraySample();
+        System.out.println(outputExample);
+
 
     }
 }

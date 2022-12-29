@@ -2,6 +2,7 @@
 
 * Part A - Foundations 8.1
 * Part B - Foundations Practice
+* Part C - Algorithm Challenge
 ## Part A
 
 ### Exercise 01
@@ -36,6 +37,14 @@ In the package `partA.ex02` look at the file `ComputeAvg`
   * Input five test scores from the console
   * Store the test scores in an array
   * Calculate the student’s average scores
+  * Test the program by inputting the following test scores: 100,97,60,75,89 
+
+Your program is working correctly, if when run, the following is the output:
+```
+
+The student's average score is: 84.2
+
+```
 
 ### Exercise 03
 
@@ -129,3 +138,33 @@ The minimum of this array is: -20
 ```
 
 > Use FixMeExample for reference.
+
+## Part C
+
+### Problem 24
+Every string needs to begin with "not", in order to do that you need to add "not" to the beginning of a provided string.
+But if the string already begins with "not" we will leave it alone, no need to have a "not not".
+
+Return a new string where "not" has been added to the front.
+
+Tip: Use .equals() to compare 2 strings
+
+Example:
+```java
+beginWithNot("candy") --> "not candy"
+beginWithNot("x") --> "not x"
+beginWithNot("not bad") --> "not bad"
+```
+### Problem 25
+The most popular number today is 3. We need the first 3 characters of a string, and we need to make
+3 copies of those 3 characters. The front of a string is considered those 3 characters. The front can
+be less than 3, just need to provide whatever is there.
+
+Return a new string which is 3 copies of the front of the string.
+
+Example:
+```java
+popular3("Java") --> "JavJavJav"
+popular3("Chocolate") --> "ChoChoCho"
+popular3("abc") --> "abcabcabc"
+```

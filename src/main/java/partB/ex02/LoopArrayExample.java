@@ -1,12 +1,24 @@
 package partB.ex02;
 
 public class LoopArrayExample {
-    public static void main(String[] args) {
+    public static String arrayLoop() {
+        String response = "";
+
         int[] numbers = {14, 22, 89, 33};
 
-        System.out.println("Using a for Loop:");
+        response += ("Using a for Loop:");
         for(int i = 0; i < numbers.length; i++){
-            System.out.println(numbers[i]);
+            response += (numbers[i]);
         }
+
+        return response;
     }
+
+    public static void main(String[] args) {
+        String output = arrayLoop();
+        System.out.println(output);
+
+
+    }
+
 }

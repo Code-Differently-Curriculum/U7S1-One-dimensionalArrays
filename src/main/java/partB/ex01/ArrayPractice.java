@@ -1,8 +1,7 @@
-package partB.ex02;
+package partB.ex01;
 
-public class ArrayLoop {
-
-    public static String arrayLoop(){
+public class ArrayPractice {
+    public static String arrayPractice(){
         String response = "";
 
 
@@ -13,7 +12,7 @@ public class ArrayLoop {
 
     }
     public static void main(String args[]) {
-        String arrayOutput = arrayLoop();
+        String arrayOutput = arrayPractice();
         System.out.println(arrayOutput);
 
     }
